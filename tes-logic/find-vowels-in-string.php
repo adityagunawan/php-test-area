@@ -12,6 +12,9 @@ function getCount($str) {
   }
   
   return $vowelsCount;
+
+  // and this is magic way 
+    //return preg_match_all("/[aeiou]/", $str);
 }
 
 print_r(getCount("adityagunawan"));
