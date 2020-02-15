@@ -14,3 +14,4 @@ function expanded_form($n) {
 
   print_r(expanded_form(2020)); // result 2000 + 20
   print_r(expanded_form(1994)); // result 1000 + 900 + 90 + 4
+  
